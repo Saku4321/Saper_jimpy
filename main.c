@@ -67,7 +67,7 @@ int main(int argc, char **argv){
 	int sizex,sizey;
 	char mapa[MAX_SIZE][MAX_SIZE];
 	char mapagraf[MAX_SIZE][MAX_SIZE];	
-	if(argc!=2 && argc != 3){
+	if(argc!=2){
 		printf("Zbyt duza liczba argumentow \n");
 		return 1;
 	}
